@@ -17,3 +17,5 @@ features = "0.10.0"
 
 structopt = "0.3.26"
 serde_json = "1.0.116"
+
+serde_yaml = "0.9.34"
