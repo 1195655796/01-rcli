@@ -20,3 +20,9 @@ serde_yaml = "0.9.34"
 rand = "0.8.5"
 zxcvbn = "2.2.2"
 base64 = "0.22.1"
+blake3 = "1.5.1"
+ed25519-dalek = { version = "2.1.1", features = ["rand_core"] }
+tokio = { version = "1.37.0", features = ["rt", "rt-multi-thread", "macros", "net", "fs"] }
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+axum = { version = "0.7.5", features = ["http2", "query", "tracing"] }
